@@ -10,7 +10,7 @@ const NavLinks = () => (
     {links.map((item) => (
       <NavLink
         key={item.name}
-        to={item.path}
+        to={item.to}
         className="flex flex-row justify-start items-center my-8 text-sm font-medium text-gray-400 hover:text-cyan-400"
         onClick={() => handleClick && handleClick()}
       >

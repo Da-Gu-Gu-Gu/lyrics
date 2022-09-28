@@ -5,7 +5,7 @@ import { HiOutlineMenu } from 'react-icons/hi';
 import { links } from '../assets/constants';
 import { logo } from '../assets/index';
 
-const NavLinks = () => (
+const NavLinks = ({ handleClick }) => (
   <div className="mt-10">
     {links.map((item) => (
       <NavLink
